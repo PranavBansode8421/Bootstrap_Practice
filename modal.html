@@ -14,10 +14,10 @@
         <h1 class="text-center text-primary p-1 m-1 bg-warning border border-primary">Cars Collection</h1>
     </div>
     <div class="body">
-        <div class="row">
+        <div class="row ">
             <div class="col">
                 <div class="card  m-1 " style="width:350px">
-                    <div class="card-header text-center">
+                    <div class="card-header ">
                         <h3>Vintage Ferrari</h3>
                     </div>
                     <div class="card-body">
@@ -29,7 +29,7 @@
 
                     </div>
                     <div class="card-footer">
-                        <button type="button" class=" btn btn-info m-2 p-1" data-toggle="modal"
+                        <button type="button" class=" btn btn-info m-2 p-2" data-toggle="modal"
                             data-target="#modal1">Vintage Ferrari Car</button>
                     </div>
                 </div>
@@ -47,7 +47,7 @@
                             and rear drum brakes. </p>
                     </div>
                     <div class="card-footer">
-                        <button type="button" class=" btn btn-danger m-2 p-" data-toggle="modal"
+                        <button type="button" class=" btn btn-danger m-2 p-2" data-toggle="modal"
                             data-target="#modal2">Vintage Camero</button>
                     </div>
                 </div>
@@ -65,7 +65,7 @@
                             road presence.</p>
                     </div>
                     <div class="card-footer">
-                        <button type="button" class=" btn btn-primary m-2 p-1" data-toggle="modal"
+                        <button type="button" class=" btn btn-primary m-2 p-2" data-toggle="modal"
                             data-target="#modal3">Range Rover</button>
 
                     </div>
@@ -75,23 +75,26 @@
         <!-- button for modal -->
 
         <!-- Modal Start -->
-        <div class="modal " id="modal1" data-backdrop="static">
-            <div class="modal-dialog">
+        <div class="modal fade" id="modal1" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="text-primary text-centre">This is heading</h1>
+                        <h1 class="text-primary text-centre">Ferrari 250 GTO.</h1>
                         <button class="close" type="button" data-dismiss="modal">
                             <span>&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body text-center">
+                    <div class="modal-body ">
                         <img src="./media/old classic ferrari_.jpeg" alt="" class="img-thumbnail">
-                        <p class="text-justify">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vel amet porro, inventore,
-                            dolorem quasi odit a facilis laborum quae consectetur ducimus aperiam laudantium, officia
-                            non nostrum maxime animi iusto fuga ut cum id atque nisi aliquam. Sint distinctio ducimus,
-                            est temporibus iure nisi saepe vitae eum necessitatibus esse adipisci?
-                        </p>
+                        <ul>
+                            <li><Strong>Engine:</Strong> 3-liter V12 with a claimed 300 horsepower</li>
+                            <li><Strong>Transmission:</Strong> 5-speed, all synchromesh gearbox</li>
+                            <li><Strong>Brakes:</Strong> Four wheel disc brakes, with a cable-operated handbrake to the rear wheels</li>
+                            <li><Strong>Wheelbase:</Strong> 2400 mm</li>
+                            <li><Strong>Chassis:</Strong> Built on the same lines as the 250 GT SWB, but with smaller section tubing and additional bracing</li>
+                            <li><Strong>Top speed:</Strong> 174 mph </li>
+                            <li><Strong>0 to 60 time:</Strong> Sub-three seconds</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
@@ -99,24 +102,30 @@
                 </div>
             </div>
         </div>
-        <div class="modal " id="modal2" data-backdrop="static">
-            <div class="modal-dialog">
+        <div class="modal fade " id="modal2" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="text-primary text-centre">This is heading</h1>
+                        <h1 class="text-primary text-centre">1969 Camaro Z28.</h1>
                         <button class="close" type="button" data-dismiss="modal">
                             <span>&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body text-center">
+                    <div class="modal-body ">
                         <img src="./media/USA Classic Cars _ Chevy Camaro 🔥 _ Facebook.jpeg" alt=""
                             class="img-thumbnail">
-                        <p class="text-justify">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vel amet porro, inventore,
-                            dolorem quasi odit a facilis laborum quae consectetur ducimus aperiam laudantium, officia
-                            non nostrum maxime animi iusto fuga ut cum id atque nisi aliquam. Sint distinctio ducimus,
-                            est temporibus iure nisi saepe vitae eum necessitatibus esse adipisci?
-                        </p>
+                            <ul>
+                                <li><strong>Engine:</strong> 302 cubic inch (4.9 liter) V8 with 290 horsepower at 5,800 rpm and 290 lb-ft of torque at 4,200 rpm</li>
+                                <li><strong>Transmission:</strong> Four-speed manual with a Hurst shifter</li>
+                                <li><strong>Wheelbase:</strong> 108.1 inches</li>
+                                <li><strong>Weight:</strong> 3,765 lbs</li>
+                                <li><strong>Top speed:</strong> 135+ mph</li>
+                                <li><strong>0–60 time:</strong> 7.4 seconds</li>
+                                <li><strong>1/4 mile time:</strong> 15.12 seconds at 94.8 mph</li>
+                                <li><strong>Features:</strong> Standard front disc brakes, cowl-induction hood, Positraction, and 3.73:1 gears</li>
+                                <li><strong>Number built:</strong> 20,302</li>
+                                <li><strong>MSRP:</strong> $3,185</li>
+                            </ul>
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
@@ -124,26 +133,35 @@
                 </div>
             </div>
         </div>
-        <div class="modal " id="modal3" data-backdrop="static">
-            <div class="modal-dialog">
+        <div class="modal fade" id="modal3" data-backdrop="static">
+            <div class="modal-dialog modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h1 class="text-primary text-centre">This is heading</h1>
+                        <h1 class="text-primary text-centre">Range Rover Sport.</h1>
                         <button class="close" type="button" data-dismiss="modal">
                             <span>&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body text-center">
-                        <img src="./media/new range rover.jpeg" alt="" class="img-thumbnail">
-                        <p class="text-justify">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vel amet porro, inventore,
-                            dolorem quasi odit a facilis laborum quae consectetur ducimus aperiam laudantium, officia
-                            non nostrum maxime animi iusto fuga ut cum id atque nisi aliquam. Sint distinctio ducimus,
-                            est temporibus iure nisi saepe vitae eum necessitatibus esse adipisci?
-                        </p>
+                    <div class="modal-body ">
+                        <img src="./media/range rover.jpeg" alt="" class="img-thumbnail">
+                        <ul>
+                            <li><strong>Engine:</strong> 3.0L inline 6-cylinder turbocharged with mild hybrid system</li>
+                            <li><strong>Horsepower:</strong> 395 hp at 5,500 rpm</li>
+                            <li><strong>Torque:</strong> 406 lb-ft at 2,000-5,000 rpm</li>
+                            <li><strong>Transmission:</strong> 8-speed automatic</li>
+                            <li><strong>Drivetrain:</strong> All-wheel drive (AWD)</li>
+                            <li><strong>Fuel Economy:</strong> 19 MPG city / 24 MPG highway</li>
+                            <li><strong>0–60 time:</strong> 5.9 seconds</li>
+                            <li><strong>Top Speed:</strong> 140 mph</li>
+                            <li><strong>Towing Capacity:</strong> 7,716 lbs</li>
+                            <li><strong>Dimensions (L x W x H):</strong> 192.1 in x 81.6 in x 71 in</li>
+                            <li><strong>Cargo Space:</strong> 63.7 cubic feet with rear seats folded</li>
+                            <li><strong>Features:</strong> Adaptive air suspension, Terrain Response 2, 360-degree camera, leather seats, 13.1-inch touchscreen</li>
+                            <li><strong>MSRP:</strong> Starting at $83,000</li>
+                        </ul>
                     </div>
                     <div class="modal-footer">
-                        <button class="btn btn-danger" type="button" data-dismiss="modal">Close</button>
+                        <button class="btn btn-danger " type="button" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
